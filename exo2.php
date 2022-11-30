@@ -25,7 +25,7 @@
         echo "</tr></table>";
         ?>   
     </div>
-    <div> 
+    <div class="droite"> 
         <?php
         $array = [
             0 => "Nom",
