@@ -27,15 +27,22 @@
     </div>
     <div class="droite"> 
         <?php
-        $array = [
+        $array2 = [
             0 => "Nom",
             1 => "Prenom",
             2 => "MDP",
         ];
-        echo "<table border='1'><tr>";
+        $array3 = [
+            0 => "Briaux",
+            1 => "Simon",
+            2 => "1234",
+        ];
 
+
+        echo "<table border='1'><tr>";
         for($i=0;$i<3;$i++){
-            echo "<th>".$array[$i]."</th>";
+            echo "<th>".$array2[$i]."</th>";
+            echo "<tr><th>".$array3[$i]."</th></tr>";
         }
         echo "</tr></table>";
         ?>
