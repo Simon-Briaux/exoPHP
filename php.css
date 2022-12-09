@@ -4,6 +4,10 @@
 
 .rouge{
     color: red;
-    size: 20px;
+    font-size: 1.9em;
+}
 
+.violet{
+    color: purple;
+    font-size: 1.9em;
 }

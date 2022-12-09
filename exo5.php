@@ -8,9 +8,9 @@
     <title>exo5php</title>
 </head>
 <body>
-    <form action="" method="get">
+    <form action="" method="post">
     <div>
-        <label for="name">Enter your name: </label>
+        <label for="name">Enter votre nom: </label>
         <input type="text" name="name" id="name" required>
     </div>
     <div>
@@ -18,7 +18,7 @@
   </div>
   <div class="rouge">
   <?php
-echo 'Salut ' . htmlspecialchars($_GET["name"]) . '!';
+echo 'Salut ' . htmlspecialchars($_POST["name"]) . '!';
 ?>
 </div>
 </body>
