@@ -7,6 +7,6 @@
     <title>fexo1</title>
 </head>
 <body>
-    
+<?php coucou ?>
 </body>
 </html>
